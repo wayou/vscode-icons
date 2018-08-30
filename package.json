@@ -2,7 +2,7 @@
     "name": "vscode-icons-mac",
     "displayName": "vscode-icons-mac",
     "description": "Icons for Visual Studio Code (with classic mac folder icon)",
-    "version": "7.25.1",
+    "version": "7.25.2",
     "publisher": "wayou",
     "license": "MIT",
     "author": {
@@ -51,8 +51,8 @@
     "contributes": {
         "iconThemes": [
             {
-                "id": "vscode-icons",
-                "label": "VSCode Icons",
+                "id": "vscode-icons-mac",
+                "label": "VSCode Icons Mac",
                 "path": "out/src/icons.json"
             }
         ],
