@@ -4,4 +4,4 @@ same as [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons
 
 ### preview
 
-![](images/preview.png)
+![](https://raw.githubusercontent.com/wayou/vscode-icons/master/images/preview.png)
