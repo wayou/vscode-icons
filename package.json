@@ -1,33 +1,28 @@
 {
-    "name": "vscode-icons",
-    "displayName": "vscode-icons",
-    "description": "Icons for Visual Studio Code",
+    "name": "vscode-icons-mac",
+    "displayName": "vscode-icons-mac",
+    "description": "Icons for Visual Studio Code (with classic mac folder icon)",
     "version": "7.25.0",
-    "publisher": "robertohuertasm",
+    "publisher": "wayou",
     "license": "MIT",
     "author": {
-        "email": "roberto.huertas@outlook.com",
-        "name": "Roberto Huertas",
-        "url": "http://codecoding.com"
+        "email": "liuwayong@gmail.com",
+        "name": "Wayou Liu",
+        "url": "http://github.com/wayou"
     },
     "maintainers": [
         {
-            "email": "jimikar@gmail.com",
-            "name": "Jimi (Dimitris) Charalampidis"
-        },
-        {
-            "email": "jenshausdorf@gmail.com",
-            "name": "Jens Hausdorf",
-            "url": "https://jens-hausdorf.de"
+          "email": "liuwayong@gmail.com",
+          "name": "Wayou Liu"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/vscode-icons/vscode-icons"
+        "url": "https://github.com/wayou/vscode-icons"
     },
     "bugs": {
-        "url": "https://github.com/vscode-icons/vscode-icons/issues",
-        "email": "roberto.huertas@outlook.com"
+        "url": "https://github.com/wayou/vscode-icons/issues",
+        "email": "liuwayong@gmail.com"
     },
     "engines": {
         "vscode": "^1.8.1",
@@ -63,57 +58,57 @@
         ],
         "commands": [
             {
-                "command": "vscode-icons.activateIcons",
+                "command": "vscode-icons-mac.activateIcons",
                 "title": "%command.activateIcons.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.regenerateIcons",
+                "command": "vscode-icons-mac.regenerateIcons",
                 "title": "%command.regenerateIcons.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.ngPreset",
+                "command": "vscode-icons-mac.ngPreset",
                 "title": "%command.ngPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.jsPreset",
+                "command": "vscode-icons-mac.jsPreset",
                 "title": "%command.jsPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.tsPreset",
+                "command": "vscode-icons-mac.tsPreset",
                 "title": "%command.tsPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.jsonPreset",
+                "command": "vscode-icons-mac.jsonPreset",
                 "title": "%command.jsonPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.hideFoldersPreset",
+                "command": "vscode-icons-mac.hideFoldersPreset",
                 "title": "%command.hideFoldersPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.foldersAllDefaultIconPreset",
+                "command": "vscode-icons-mac.foldersAllDefaultIconPreset",
                 "title": "%command.foldersAllDefaultIconPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.hideExplorerArrowsPreset",
+                "command": "vscode-icons-mac.hideExplorerArrowsPreset",
                 "title": "%command.hideExplorerArrowsPreset.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.restoreIcons",
+                "command": "vscode-icons-mac.restoreIcons",
                 "title": "%command.restoreIcons.title%",
                 "category": "Icons"
             },
             {
-                "command": "vscode-icons.resetProjectDetectionDefaults",
+                "command": "vscode-icons-mac.resetProjectDetectionDefaults",
                 "title": "%command.resetProjectDetectionDefaults.title%",
                 "category": "Icons"
             }
