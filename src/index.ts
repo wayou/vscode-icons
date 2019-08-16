@@ -20,7 +20,6 @@ function initialize(context: vscode.ExtensionContext): void {
   const settingsManager = new SettingsManager(vscode);
 
   commands.registerCommands(context);
-  init.manageWelcomeMessage(settingsManager);
   init.manageAutoApplyCustomizations(
     settingsManager.isNewVersion(),
     config,
